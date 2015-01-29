@@ -1,0 +1,9 @@
+{
+  "name": "increments",
+  "version": "1.0.0",
+  "title": "Increments",
+  "author": "Extox",
+  "homepage": " ",
+  "description": "Everything comes with time",
+  "dependencies": ["base"]
+}

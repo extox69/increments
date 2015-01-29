@@ -1,0 +1,157 @@
+Tasks
+DONE-Remove superfluous graphics from folders.
+DONE -re factor furnaces into separate item lua's like the new schema.
+DONE -update all the lua's to the proper comments style.
+DONE-remove extra graphics from drop box folder store locally.
+DONE-update localisation to follow our schema plus add the entity descriptions/item descriptions
+     and technology/descriptions from the already added items.
+DONE-remove damage type piercing from mod, not necessary
+DONE-altered gregs super express belt graphics to an express belt from the normal transport belt
+Done-alternate red potion recipe with stone gears (twice as much as iron)
+DONE- finished up the alternate alien science recipe that greg started
+DONE-added bobs green and purple belts, mine wouldn't stop blinking.
+     plus added green and purple splitters, underground belts
+DONE-proper subgroup for the new green and purple belts
+DONE-removed now defunct localisation for the old super express belt
+DONE-updated recipes on green/purple transport belts, splitters, underground belts 
+DONE-added localisation for the new green/purple belts tech etc
+DONE-finished up the double substation localisation that greg started
+DONE-fixed the substation recipe
+DONE-substation the size of a roboport in area of effect
+Done-added steel gears for higher tier items
+DONE-changed startup to give each player gun and ammo and steel axe
+DONE-added double substation to crashed ship 
+DONE-starting ammo changed to 10 clips and stackable to 10 now
+DONE-crashed ships are now minable 30 iron or 30 copper depending on ship
+DONE-removed crashed ship graphic Greg didn't like
+DONE-fixed stone belt graphic to work properly.
+DONE-switch substation graphics to mimic the color coding we started
+DONE-Wreckages now drop starting plates
+DONE-Make starting spaceship mineable for plates
+DONE-added jack hammer tech and icon graphics and starting lua
+DONE-greg added stone splitters and underground belts
+DONE-fixed small syntax error in gregs updated splitter undergound stone file, now works as
+     intended, plus added localisation
+DONE-refactored all luas do reflect proper syntax
+DONE-added jackhammer tool and tech
+DONE-changed jackhammer durability way to high
+DONE-added jackhammer replacing steel axe to original items u start with
+
+WORKING ON Justin
+{- 
+{-
+{-
+
+
+
+--Things to do-----------
+-make shitty solar panel that u can make in the begining with heavy stone parts
+-fix the alter files minable recipes not quite where i want them
+-go through and update all luas to proper syntax and make a template for greg so its easier in futuer
+-make a chainsaw!  jackhammer!
+-add steel gears into highered tiered recipes
+-refactor green and pruple belts to a less bobs mod name
+-move gun and ammo plasma to proper file structure
+-steal hardcorio grinder/graphics/grinding category recipe thing
+-rob advanced equipment mod
+-stone pipes
+-close combat weapon?
+-new productivity module that isn't limited in what is can be effective for
+-new combo modules
+-super module that has all kinds of goodies Alien artifact heavy
+-steel furnaces -lower pollution, smelting speed
+-electric furnace
+	1)module = 0, speed +100%, pollution +100% see if productivity can be added
+	2)super module one, 9 mods has lower stats until u add modules to overcome
+	3)super efficient electric wise 1kw 20%
+-blast furnace graphics
+  large graphic so more inserters. super duper fast. every tier uses old tier 
+  plus some shit, and adds a new bonus. sky's the limit on tiers
+- mini beacon
+ -mini roboport
+-graphic for nuke reactor make simple nuke system
+-steal solar panel stuff
+-wind turbines
+-steal the truck from hardcorio
+-add greg's train mod tweaked
+-mining drills larger area faster etc
+-steal hardcorio monsters
+-new laser turrets
+-siege turrets
+-tiered difficulty that multiplies recipes by difficulty
+look in Carmens Complete Overhaul.
+ 
+Checklist for adding items
+-entity
+-item
+-recipe
+-technology
+
+-graphics
+	*icon
+	*technology
+	*entity
+	*item
+-localization
+	*recipe
+	*item
+	*entity
+	*technology
+-data.lua
+
+--------------------------------STATS------------------------------------
+
+--------Stone Furnace---------
+		
+	Fuel
+- health = 200
+- effectivity = 2
+- fuel_inventory_size = 2
+- source_inventory_size = 2
+- result_inventory_size = 2
+- Green
+-Recipe
+   -Stone Furnace = 1
+   -Iron Chest = 1
+
+	Fast
+- health = 200
+- effectivity = 0.50
+- crafting_speed = 2
+- emissions = 0.02
+- Blue
+- Recipe
+   - Stone Furnace = 1
+   - Iron Gear Wheels = 8
+
+	Pollution
+- health = 200
+- emissions = .005
+- Red-Orange
+- Recipe
+   - Copper Cables = 16
+   - Stone Furnace 1
+
+Stone Furnace Base Stats In-game
+	- pollution = 1.8
+	= emissions * energy 
+
+
+-------- Belts ---------
+
+Stone Belt
+Speed Default (0.03125)
+Speed = .03
+Health = 100
+recipe = {"stone-brick", 1},{"stone-gear-wheel", 1}
+
+
+Super Express Belt
+speed = 0.125
+Health = 100
+
+Changing Size of entity
+-------------------------
+-Collision Box 
+-Selection Box 
+-
